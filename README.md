@@ -1,16 +1,12 @@
 ## Package Status
 
-| Bintray | Appveyor | Travis |
-|---------|-----------|--------|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/protobuf%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/protobuf%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-protobuf?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-protobuf)|[![Build Status](https://travis-ci.org/bincrafters/conan-protobuf.svg)](https://travis-ci.org/bincrafters/conan-protobuf)|
+| Appveyor | Travis |
+|----------|--------|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/protobuf-integration-test?svg=true)](https://ci.appveyor.com/project/BinCrafters/protobuf-integration-test)|[![Build Status](https://travis-ci.org/bincrafters/protobuf-integration-test.svg)](https://travis-ci.org/bincrafters/protobuf-integration-test)|
 
-## Conan.io Information
+## Testing Information
 
-Bincrafters packages can be found in the following public Conan repository:
-
-[Bincrafters Public Conan Repository on Bintray](https://bintray.com/bincrafters/public-conan)
-
-*Note: You can click the "Set Me Up" button on the Bintray page above for instructions on using packages from this repository.*
+This project was created to validate the integration between conan-protobuf and conan-protoc projects.
 
 ## Issues
 
@@ -39,9 +35,9 @@ The contents of this GIT repository are completely separate from the software be
     ~/.conan/data/<pkg_name>/<pkg_version>/bincrafters/package/<random_package_id>/license/<LICENSE_FILES_HERE>
 
 *Note :   The most common filenames for OSS licenses are `LICENSE` AND `COPYING` without file extensions.*
-	
+
 ### License for Bincrafters recipe:
 
     ~/.conan/data/<pkg_name>/<pkg_version>/bincrafters/export/LICENSE.md
 
-	
+
