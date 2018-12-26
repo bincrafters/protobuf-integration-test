@@ -20,8 +20,8 @@ class ProtobuftestConan(ConanFile):
     generators = "cmake"
     exports = "LICENSE.md"
     exports_sources = ("src/*", "CMakeLists.txt")
-    build_requires = "protoc_installer/3.6.1@uilianries/stable"
-    requires = "protobuf/3.6.1@uilianries/stable"
+    build_requires = "protoc_installer/3.6.1@bincrafters/stable"
+    requires = "protobuf/3.6.1@bincrafters/stable"
 
     def requirements(self):
         if self.options.testing:
@@ -37,7 +37,7 @@ class ProtobuftestConan(ConanFile):
         cmake.configure(source_folder="src")
         cmake.build()
         if self.options.testing:
-            if tools.cross_building(self.settings):
+            if tools.cross_building(self.settings) and "arm" in self.settings.arch:
                 self._test_arm()
             else:
                 cmake.test()
