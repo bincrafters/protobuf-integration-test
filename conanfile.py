@@ -8,7 +8,7 @@ from conans import ConanFile, CMake, tools
 
 class ProtobuftestConan(ConanFile):
     name = "protobuf-test"
-    version = "0.1.0"
+    version = "3.6.1"
     license = "MIT"
     author = "Bincrafters <bincrafters@gmail.com>"
     url = "https://github.com/bincrafters/protobuf-integration-test"
