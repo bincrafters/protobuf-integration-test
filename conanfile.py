@@ -43,4 +43,4 @@ class ProtobuftestConan(ConanFile):
                 cmake.test()
 
     def package(self):
-        self.copy("LICENSE.md", dst="licenses")
+        pass
