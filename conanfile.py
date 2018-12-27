@@ -8,7 +8,7 @@ from conans import ConanFile, CMake, tools
 
 class ProtobuftestConan(ConanFile):
     name = "protobuf-test"
-    version = "3.6.1"
+    version = "3.5.2"
     license = "MIT"
     author = "Bincrafters <bincrafters@gmail.com>"
     url = "https://github.com/bincrafters/protobuf-integration-test"
@@ -20,8 +20,8 @@ class ProtobuftestConan(ConanFile):
     generators = "cmake"
     exports = "LICENSE.md"
     exports_sources = ("src/*", "CMakeLists.txt")
-    build_requires = "protoc_installer/3.6.1@bincrafters/stable"
-    requires = "protobuf/3.6.1@bincrafters/stable"
+    build_requires = "protoc_installer/%s@bincrafters/stable" % version
+    requires = "protobuf/%s@bincrafters/stable" % version
 
     def requirements(self):
         if self.options.testing:
