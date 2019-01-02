@@ -2,7 +2,7 @@
 
 | Appveyor | Travis |
 |----------|--------|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/protobuf-integration-test?svg=true)](https://ci.appveyor.com/project/BinCrafters/protobuf-integration-test)|[![Build Status](https://travis-ci.org/bincrafters/protobuf-integration-test.svg)](https://travis-ci.org/bincrafters/protobuf-integration-test)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/protobuf-integration-test?svg=true)](https://ci.appveyor.com/project/BinCrafters/protobuf-integration-test)|[![Build Status](https://travis-ci.com/bincrafters/protobuf-integration-test.svg)](https://travis-ci.com/bincrafters/protobuf-integration-test)|
 
 ## Testing Information
 
@@ -39,5 +39,3 @@ The contents of this GIT repository are completely separate from the software be
 ### License for Bincrafters recipe:
 
     ~/.conan/data/<pkg_name>/<pkg_version>/bincrafters/export/LICENSE.md
-
-
